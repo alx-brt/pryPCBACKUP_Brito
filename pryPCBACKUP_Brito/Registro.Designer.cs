@@ -39,7 +39,7 @@
             groupBox1 = new GroupBox();
             mtxtMail = new MaskedTextBox();
             gboEquipo = new GroupBox();
-            dtpTiempo = new DateTimePicker();
+            dtpFecha = new DateTimePicker();
             cboTipo = new ComboBox();
             txtPresupuesto = new TextBox();
             lblPresupuesto = new Label();
@@ -120,7 +120,7 @@
             // 
             // gboEquipo
             // 
-            gboEquipo.Controls.Add(dtpTiempo);
+            gboEquipo.Controls.Add(dtpFecha);
             gboEquipo.Controls.Add(cboTipo);
             gboEquipo.Controls.Add(txtPresupuesto);
             gboEquipo.Controls.Add(lblPresupuesto);
@@ -139,11 +139,11 @@
             gboEquipo.TabStop = false;
             gboEquipo.Enter += gboEquipo_Enter;
             // 
-            // dtpTiempo
+            // dtpFecha
             // 
-            dtpTiempo.Format = DateTimePickerFormat.Short;
-            resources.ApplyResources(dtpTiempo, "dtpTiempo");
-            dtpTiempo.Name = "dtpTiempo";
+            dtpFecha.Format = DateTimePickerFormat.Short;
+            resources.ApplyResources(dtpFecha, "dtpFecha");
+            dtpFecha.Name = "dtpFecha";
             // 
             // cboTipo
             // 
@@ -282,7 +282,7 @@
         private TabPage tabPage2;
         private TextBox txtPresupuesto;
         private Label lblPresupuesto;
-        private DateTimePicker dtpTiempo;
+        private DateTimePicker dtpFecha;
         private ComboBox cboTipo;
     }
 }
