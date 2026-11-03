@@ -248,6 +248,7 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { NºTicket, Falla, Presupuesto, Fecha, Nombre_Cliente });
             resources.ApplyResources(dataGridView1, "dataGridView1");
