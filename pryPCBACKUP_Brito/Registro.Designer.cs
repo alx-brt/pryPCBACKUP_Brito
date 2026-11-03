@@ -56,10 +56,18 @@
             tcoRegistro = new TabControl();
             tabPage1 = new TabPage();
             tabPage2 = new TabPage();
+            dataGridView1 = new DataGridView();
+            NºTicket = new DataGridViewTextBoxColumn();
+            Falla = new DataGridViewTextBoxColumn();
+            Presupuesto = new DataGridViewTextBoxColumn();
+            Fecha = new DataGridViewTextBoxColumn();
+            Nombre_Cliente = new DataGridViewTextBoxColumn();
             groupBox1.SuspendLayout();
             gboEquipo.SuspendLayout();
             tcoRegistro.SuspendLayout();
             tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // lblNombre
@@ -233,9 +241,45 @@
             // 
             // tabPage2
             // 
+            tabPage2.Controls.Add(dataGridView1);
             resources.ApplyResources(tabPage2, "tabPage2");
             tabPage2.Name = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { NºTicket, Falla, Presupuesto, Fecha, Nombre_Cliente });
+            resources.ApplyResources(dataGridView1, "dataGridView1");
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // NºTicket
+            // 
+            resources.ApplyResources(NºTicket, "NºTicket");
+            NºTicket.Name = "NºTicket";
+            // 
+            // Falla
+            // 
+            resources.ApplyResources(Falla, "Falla");
+            Falla.Name = "Falla";
+            // 
+            // Presupuesto
+            // 
+            resources.ApplyResources(Presupuesto, "Presupuesto");
+            Presupuesto.Name = "Presupuesto";
+            Presupuesto.ReadOnly = true;
+            // 
+            // Fecha
+            // 
+            resources.ApplyResources(Fecha, "Fecha");
+            Fecha.Name = "Fecha";
+            Fecha.ReadOnly = true;
+            // 
+            // Nombre_Cliente
+            // 
+            resources.ApplyResources(Nombre_Cliente, "Nombre_Cliente");
+            Nombre_Cliente.Name = "Nombre_Cliente";
             // 
             // Registro
             // 
@@ -252,6 +296,8 @@
             gboEquipo.PerformLayout();
             tcoRegistro.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -284,5 +330,11 @@
         private Label lblPresupuesto;
         private DateTimePicker dtpFecha;
         private ComboBox cboTipo;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn NºTicket;
+        private DataGridViewTextBoxColumn Falla;
+        private DataGridViewTextBoxColumn Presupuesto;
+        private DataGridViewTextBoxColumn Fecha;
+        private DataGridViewTextBoxColumn Nombre_Cliente;
     }
 }

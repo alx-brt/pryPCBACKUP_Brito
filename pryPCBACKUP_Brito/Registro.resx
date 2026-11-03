@@ -347,6 +347,186 @@
   <data name="&gt;&gt;mtxtMail.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;dtpFecha.Name" xml:space="preserve">
+    <value>dtpFecha</value>
+  </data>
+  <data name="&gt;&gt;dtpFecha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFecha.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;dtpFecha.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cboTipo.Name" xml:space="preserve">
+    <value>cboTipo</value>
+  </data>
+  <data name="&gt;&gt;cboTipo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboTipo.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;cboTipo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtPresupuesto.Name" xml:space="preserve">
+    <value>txtPresupuesto</value>
+  </data>
+  <data name="&gt;&gt;txtPresupuesto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPresupuesto.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;txtPresupuesto.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblPresupuesto.Name" xml:space="preserve">
+    <value>lblPresupuesto</value>
+  </data>
+  <data name="&gt;&gt;lblPresupuesto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPresupuesto.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;lblPresupuesto.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtModelo.Name" xml:space="preserve">
+    <value>txtModelo</value>
+  </data>
+  <data name="&gt;&gt;txtModelo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModelo.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;txtModelo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblModelo.Name" xml:space="preserve">
+    <value>lblModelo</value>
+  </data>
+  <data name="&gt;&gt;lblModelo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblModelo.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;lblModelo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtNSerie.Name" xml:space="preserve">
+    <value>txtNSerie</value>
+  </data>
+  <data name="&gt;&gt;txtNSerie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNSerie.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;txtNSerie.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblNSerie.Name" xml:space="preserve">
+    <value>lblNSerie</value>
+  </data>
+  <data name="&gt;&gt;lblNSerie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNSerie.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;lblNSerie.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtFalla.Name" xml:space="preserve">
+    <value>txtFalla</value>
+  </data>
+  <data name="&gt;&gt;txtFalla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFalla.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;txtFalla.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.Name" xml:space="preserve">
+    <value>lblTipo</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtMarca.Name" xml:space="preserve">
+    <value>txtMarca</value>
+  </data>
+  <data name="&gt;&gt;txtMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMarca.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;txtMarca.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblMarca.Name" xml:space="preserve">
+    <value>lblMarca</value>
+  </data>
+  <data name="&gt;&gt;lblMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMarca.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;lblMarca.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblFalla.Name" xml:space="preserve">
+    <value>lblFalla</value>
+  </data>
+  <data name="&gt;&gt;lblFalla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFalla.Parent" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;lblFalla.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="gboEquipo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 146</value>
+  </data>
+  <data name="gboEquipo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 263</value>
+  </data>
+  <data name="gboEquipo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gboEquipo.Text" xml:space="preserve">
+    <value>Datos del Equipo</value>
+  </data>
+  <data name="&gt;&gt;gboEquipo.Name" xml:space="preserve">
+    <value>gboEquipo</value>
+  </data>
+  <data name="&gt;&gt;gboEquipo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboEquipo.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;gboEquipo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="dtpFecha.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 204</value>
   </data>
@@ -666,30 +846,6 @@
   <data name="&gt;&gt;lblFalla.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="gboEquipo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 146</value>
-  </data>
-  <data name="gboEquipo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>405, 263</value>
-  </data>
-  <data name="gboEquipo.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="gboEquipo.Text" xml:space="preserve">
-    <value>Datos del Equipo</value>
-  </data>
-  <data name="&gt;&gt;gboEquipo.Name" xml:space="preserve">
-    <value>gboEquipo</value>
-  </data>
-  <data name="&gt;&gt;gboEquipo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gboEquipo.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;gboEquipo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="btnRegistrar.Location" type="System.Drawing.Point, System.Drawing">
     <value>321, 415</value>
   </data>
@@ -740,6 +896,60 @@
     <value>tcoRegistro</value>
   </data>
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="NºTicket.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NºTicket.HeaderText" xml:space="preserve">
+    <value>Nº Ticket</value>
+  </data>
+  <metadata name="Falla.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Falla.HeaderText" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <metadata name="Presupuesto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Presupuesto.HeaderText" xml:space="preserve">
+    <value>Presupuesto</value>
+  </data>
+  <metadata name="Fecha.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Fecha.HeaderText" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <metadata name="Nombre_Cliente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Nombre_Cliente.HeaderText" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 445</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
@@ -868,6 +1078,36 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Registro de Clientes -- PC BACKUP</value>
+  </data>
+  <data name="&gt;&gt;NºTicket.Name" xml:space="preserve">
+    <value>NºTicket</value>
+  </data>
+  <data name="&gt;&gt;NºTicket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Falla.Name" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="&gt;&gt;Falla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Presupuesto.Name" xml:space="preserve">
+    <value>Presupuesto</value>
+  </data>
+  <data name="&gt;&gt;Presupuesto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Fecha.Name" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="&gt;&gt;Fecha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Nombre_Cliente.Name" xml:space="preserve">
+    <value>Nombre_Cliente</value>
+  </data>
+  <data name="&gt;&gt;Nombre_Cliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Registro</value>
